@@ -7,9 +7,14 @@ body {
   line-height: 1.6;
 }
 
+header {
+  background-color: #d96c0f; 
+}
+
 header img {
-  width: 500px !important;
+  width: 450px !important;
   height: auto !important;
+  display: block
 }
 
 nav {
