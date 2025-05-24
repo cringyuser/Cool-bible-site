@@ -34,15 +34,6 @@
     h1 {
       text-align: center;
     }
-/* Hide all <p> elements */
-body > p {
-  display: none;
-}
-
-/* Show <p> elements that are inside .grid */
-.grid p {
-  display: block;
-}
 
   <header>
     <img src="istockphoto-1303317477-612x612.jpg" alt="Jonah and the whale illustration">
@@ -102,29 +93,30 @@ body > p {
       </div>
     </div>
   </main>
+<div id="parallel"></div>
 <script>
-window.addEventListener('DOMContentLoaded', function() {
-  const hebrewParagraphs = Array.from(document.querySelectorAll('.column.hebrew p'));
-  const englishParagraphs = Array.from(document.querySelectorAll('.column.english p'));
-  const grid = document.getElementById('chapter-grid');
-  grid.className = 'chapter-grid';
+const english = Array.from(document.querySelectorAll('.english p'));
+const hebrew = Array.from(document.querySelectorAll('.hebrew p'));
+const container = document.getElementById('parallel');
 
-  const maxLength = Math.max(hebrewParagraphs.length, englishParagraphs.length);
-  for (let i = 0; i < maxLength; i++) {
-    if (hebrewParagraphs[i]) {
-      const div = document.createElement('div');
-      div.className = 'hebrew';
-      div.innerHTML = hebrewParagraphs[i].innerHTML;
-      grid.appendChild(div);
-    }
-    if (englishParagraphs[i]) {
-      const div = document.createElement('div');
-      div.className = 'english';
-      div.innerHTML = englishParagraphs[i].innerHTML;
-      grid.appendChild(div);
-    }
-  }
-});
+for (let i = 0; i < Math.min(english.length, hebrew.length); i++) {
+  const row = document.createElement('div');
+  row.className = 'row';
+
+  const en = english[i].cloneNode(true);
+  en.className = 'en';
+
+  const he = hebrew[i].cloneNode(true);
+  he.className = 'he';
+
+  row.appendChild(en);
+  row.appendChild(he);
+  container.appendChild(row);
+}
+
+// Optionally hide the original blocks:
+document.querySelector('.english').style.display = 'none';
+document.querySelector('.hebrew').style.display = 'none';
 </script>
 </body>
 </html>
