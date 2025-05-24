@@ -5,10 +5,9 @@
   <title>Chapter 1 – Jonah Project</title>
   <link rel="stylesheet" href="stile.css">
   <link href="https://fonts.googleapis.com/css2?family=David+Libre&display=swap" rel="stylesheet">
-  <style>
-    .chapter-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
+ <style>
+    .chapter {
+      display: flex;
       gap: 2em;
       margin: 2em auto;
       max-width: 1200px;
@@ -34,30 +33,7 @@
     h1 {
       text-align: center;
     }
-    #parallel {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5em;
-}
-
-#parallel .row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: start;
-  gap: 1em;
-}
-
-#parallel .en {
-  text-align: left;
-  direction: ltr;
-}
-
-#parallel .he {
-  text-align: right;
-  direction: rtl;
-}
-
-  </style>
+  </style> 
 </head>
 <body>
   <header>
