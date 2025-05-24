@@ -6,8 +6,9 @@
   <link rel="stylesheet" href="stile.css">
   <link href="https://fonts.googleapis.com/css2?family=David+Libre&display=swap" rel="stylesheet">
   <style>
-    .chapter {
-      display: flex;
+    .chapter-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
       gap: 2em;
       margin: 2em auto;
       max-width: 1200px;
@@ -55,6 +56,7 @@
     <h1>Jonah – Chapter 1</h1>
 
     <div class="chapter">
+      <div id="chapter-grid"></div>
       <div class="column english">
         <p>1 <a href="note.html#note1">And</a> the <a href="note.html#note2">word</a> of the Lord came to <a href="note.html#note3">Jonah</a>  son of <a href="note.html#note4">Amittai</a>, saying:</p> 
         <p>2 <a href="note.html#note5">Arise</a>, go to <a href="note.html#note6">Nineveh</a>, the great <a href="note.html#note7">city</a>, and proclaim against it, for their <a href="note.html#note8">evil</a>  has come before Me.</p>
@@ -94,6 +96,29 @@
       </div>
     </div>
   </main>
+<script>
+window.addEventListener('DOMContentLoaded', function() {
+  const hebrewParagraphs = Array.from(document.querySelectorAll('.column.hebrew p'));
+  const englishParagraphs = Array.from(document.querySelectorAll('.column.english p'));
+  const grid = document.getElementById('chapter-grid');
+  grid.className = 'chapter-grid';
 
+  const maxLength = Math.max(hebrewParagraphs.length, englishParagraphs.length);
+  for (let i = 0; i < maxLength; i++) {
+    if (hebrewParagraphs[i]) {
+      const div = document.createElement('div');
+      div.className = 'hebrew';
+      div.innerHTML = hebrewParagraphs[i].innerHTML;
+      grid.appendChild(div);
+    }
+    if (englishParagraphs[i]) {
+      const div = document.createElement('div');
+      div.className = 'english';
+      div.innerHTML = englishParagraphs[i].innerHTML;
+      grid.appendChild(div);
+    }
+  }
+});
+</script>
 </body>
 </html>
