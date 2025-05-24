@@ -6,8 +6,10 @@
   <link rel="stylesheet" href="stile.css">
   <style>
 :target {
-  background-color: #ffff99;
-  transition: background-color 0.5s ease-in-out;
+.js-highlight {
+  background-color: #ffff99 !important;
+  transition: background-color 1s;
+}
 }
 </style>
 
@@ -126,10 +128,15 @@
   </div>
 <script>
 function scrollAndCenterTarget() {
-  const target = document.querySelector(':target');
-  if (target) {
-    target.scrollIntoView({ behavior: 'smooth', block: 'center' });
-  }
+  setTimeout(() => {
+    const target = document.querySelector(':target');
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      // Optionally re-add a highlight (if you want a fade effect)
+      target.classList.add('js-highlight');
+      setTimeout(() => target.classList.remove('js-highlight'), 1500);
+    }
+  }, 0); // Run after browser's default scroll
 }
 
 window.addEventListener('DOMContentLoaded', scrollAndCenterTarget);
