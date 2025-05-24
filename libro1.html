@@ -117,29 +117,6 @@
     </div>
   </main>
 <div id="parallel"></div>
-<script>
-const english = Array.from(document.querySelectorAll('.english p'));
-const hebrew = Array.from(document.querySelectorAll('.hebrew p'));
-const container = document.getElementById('parallel');
 
-for (let i = 0; i < Math.min(english.length, hebrew.length); i++) {
-  const row = document.createElement('div');
-  row.className = 'row';
-
-  const en = english[i].cloneNode(true);
-  en.className = 'en';
-
-  const he = hebrew[i].cloneNode(true);
-  he.className = 'he';
-
-  row.appendChild(en);
-  row.appendChild(he);
-  container.appendChild(row);
-}
-
-// Optionally hide the original blocks:
-document.querySelector('.english').style.display = 'none';
-document.querySelector('.hebrew').style.display = 'none';
-</script>
 </body>
 </html>
