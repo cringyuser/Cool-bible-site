@@ -4,6 +4,13 @@
   <meta charset="UTF-8">
   <title>Notes on the Hebrew Text – Jonah</title>
   <link rel="stylesheet" href="stile.css">
+  <style>
+:target {
+  background-color: #ffff99;
+  transition: background-color 0.5s ease-in-out;
+}
+</style>
+
 </head>
 <body>
   <div class="container">
@@ -117,5 +124,13 @@
       <p>&copy; 2025 - Study on the Book of Jonah</p>
     </footer>
   </div>
+ <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      const target = document.querySelector(':target');
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    });
+  </script>
 </body>
 </html>
