@@ -34,12 +34,15 @@
     h1 {
       text-align: center;
     }
-  body > p:not(.grid p) {
-    display: none;
-  }
-  </style>
-</head>
-<body>
+/* Hide all <p> elements */
+body > p {
+  display: none;
+}
+
+/* Show <p> elements that are inside .grid */
+.grid p {
+  display: block;
+}
 
   <header>
     <img src="istockphoto-1303317477-612x612.jpg" alt="Jonah and the whale illustration">
