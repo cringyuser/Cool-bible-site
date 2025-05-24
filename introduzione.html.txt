@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Introduction - Jonah Project</title>
+  <link rel="stylesheet" href="stile.css">
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 2em 0;
+      background-color: #fff;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #e0e0e0;
+    }
+    .highlight {
+      background-color: #ffeeba;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="istockphoto-1303317477-612x612.jpg" alt="Jonah and the whale illustration">
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="introduzione.html">Introduction</a>
+    <a href="libro1.html">Chapter 1</a>
+    <a href="libro2.html">Chapter 2</a>
+    <a href="libro3.html">Chapter 3</a>
+    <a href="libro4.html">Chapter 4</a>
+    <a href="note.html">Notes</a>
+  </nav>
+
+  <main>
+    <h1>Introduction to the Book of Jonah</h1>
+
+    <h2>Map of the Books of the Old Testament</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>📘 Torah (Pentateuch)</th>
+          <th>📗 Historical Books</th>
+          <th>📙 Wisdom & Poetry</th>
+          <th>📕 Major Prophets</th>
+          <th>📒 Minor Prophets</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Genesis</td><td>Joshua</td><td>Job</td><td>Isaiah</td><td>Hosea</td></tr>
+        <tr><td>Exodus</td><td>Judges</td><td>Psalms</td><td>Jeremiah</td><td>Joel</td></tr>
+        <tr><td>Leviticus</td><td>Ruth</td><td>Proverbs</td><td>Lamentations</td><td>Amos</td></tr>
+        <tr><td>Numbers</td><td>1 Samuel</td><td>Ecclesiastes</td><td>Ezekiel</td><td>Obadiah</td></tr>
+        <tr><td>Deuteronomy</td><td>2 Samuel</td><td>Song of Songs</td><td>Daniel</td><td class="highlight">Jonah 🐋</td></tr>
+        <tr><td></td><td>1 Kings</td><td></td><td></td><td>Micah</td></tr>
+        <tr><td></td><td>2 Kings</td><td></td><td></td><td>Nahum</td></tr>
+        <tr><td></td><td>1 Chronicles</td><td></td><td></td><td>Habakkuk</td></tr>
+        <tr><td></td><td>2 Chronicles</td><td></td><td></td><td>Zephaniah</td></tr>
+        <tr><td></td><td>Ezra</td><td></td><td></td><td>Haggai</td></tr>
+        <tr><td></td><td>Nehemiah</td><td></td><td></td><td>Zechariah</td></tr>
+        <tr><td></td><td>Esther</td><td></td><td></td><td>Malachi</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Introduction: The Nature, Origin, and Purpose of the Book of Jonah<br>
+    <small>(based on an explanation from Bewer, 1912; see reference below)</small></h2>
+
+    <p>The explanation presented here is drawn from Julius A. Bewer’s scholarly work, offering a critical and exegetical perspective on the Book of Jonah. Bewer argues that the story of Jonah, while well-known, is frequently misunderstood due to an overemphasis on its literal form rather than its theological and literary intent.</p>
+
+    <p>According to Bewer, the Book of Jonah is not a historical record but a prose parable—a poetic narrative designed to convey a profound religious truth. The extraordinary and implausible elements of the story (such as the prophet's disobedience, the swallowing by a great fish, and Nineveh’s total repentance) are meant to be understood symbolically. These features, far from discrediting the text, highlight its didactic and imaginative nature. The literary style, with its repetitions and vague references, supports the idea that the book is a moral tale with a universal message rather than a precise historical account.</p>
+
+    <p>Bewer places the composition of the book in the postexilic period (likely between 400 and 200 BCE), based on its language, theology, and intertextual references to other biblical works such as Jeremiah and Deutero-Isaiah. He emphasizes that the book’s author adopted folkloric motifs (e.g., the swallowed-man tale found across cultures) not to entertain or relate myth, but to reinforce a key theological lesson: God's universal mercy and concern for all nations, not just Israel.</p>
+
+    <p>The figure of Jonah—a prophet mentioned briefly in 2 Kings—is used symbolically to represent Israel’s resistance to sharing divine truth with others. In contrast, Nineveh, though no longer existent at the time of writing, symbolizes the Gentile world. The narrative challenges the exclusivist mindset prevalent among some postexilic Jews by portraying a God who seeks repentance and salvation for all peoples.</p>
+
+    <p>Finally, Bewer addresses the book's placement in the prophetic canon. Though structurally unlike other prophetic books, Jonah’s inclusion is justified by the spirit and theological content of the narrative, which align with the core ideals of the Hebrew prophets. While some scholars have debated the book's unity, Bewer ultimately views it as a coherent literary work whose minor inconsistencies do not detract from its message.</p>
+
+    <p><strong>Reference:</strong> Bewer, J. A. (1912). <em>A Critical and Exegetical Commentary on Jonah</em>. New York: Charles Scribner’s Sons.</p>
+
+    <p>
+      Here you can find an excellent explanatory animated video created by the <strong>BibleProject</strong> YouTube channel:
+      <a href="https://www.youtube.com/watch?v=dLIabZc0O4c&t=27s" target="_blank">
+        https://www.youtube.com/watch?v=dLIabZc0O4c&t=27s
+      </a>.
+      <br>
+      <em>All credit for the video goes to the creators at BibleProject.</em>
+    </p>
+
+  </main>
+
+</body>
+</html>

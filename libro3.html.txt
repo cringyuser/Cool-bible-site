@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chapter 3 – Jonah Project</title>
+  <link rel="stylesheet" href="stile.css">
+  <link href="https://fonts.googleapis.com/css2?family=David+Libre&display=swap" rel="stylesheet">
+  <style>
+    .chapter {
+      display: flex;
+      gap: 2em;
+      margin: 2em auto;
+      max-width: 1200px;
+    }
+
+    .column {
+      flex: 1;
+    }
+
+    .hebrew {
+      font-family: 'David Libre', serif;
+      direction: rtl;
+      text-align: right;
+      font-size: 1.2em;
+      line-height: 1.8;
+    }
+
+    .english {
+      font-size: 1.1em;
+      line-height: 1.8;
+    }
+
+    h1 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="istockphoto-1303317477-612x612.jpg" alt="Jonah and the whale illustration">
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="introduzione.html">Introduction</a>
+    <a href="libro1.html">Chapter 1</a>
+    <a href="libro2.html">Chapter 2</a>
+    <a href="libro3.html">Chapter 3</a>
+    <a href="libro4.html">Chapter 4</a>
+    <a href="note.html">Notes</a>
+  </nav>
+
+  <main>
+    <h1>Jonah – Chapter 3</h1>
+
+    <div class="chapter">
+      <div class="column english">
+        <p>1 And the word of the Lord came to Jonah a <a href="note.html#nota47">second</a> time, saying:</p>
+        <p>2 <a href="note.html#nota48">Arise</a>, go to Nineveh the <a href="note.html#nota49">great</a> city, and proclaim upon it the proclamation that I speak to you.</p>
+        <p>3 And Jonah arose and went to Nineveh according to the word of the Lord. Now Nineveh was an exceedingly great city, a walk of <a href="note.html#nota50">three</a> days.</p>
+        <p>4 And Jonah commenced to come into the city, one day's walk, and he proclaimed and said, "In another <a href="note.html#nota51">forty</a> days Nineveh shall be overturned!"</p>
+        <p>5 And the people of Nineveh believed in God, and they proclaimed a <a href="note.html#nota52">fast</a> and donned sackcloth, from their greatest to their smallest.</p>
+        <p>6 And the word reached the <a href="note.html#nota53">king</a> of Nineveh, whereupon he rose from his throne, took off his royal robe, covered himself with sackcloth, and sat on the ashes.</p>
+        <p>7 And he caused it to be proclaimed and published throughout Nineveh: By the counsel of the king and his nobles, saying: Neither man nor <a href="note.html#nota54">beast</a>, neither cattle nor sheep shall taste anything; they shall not graze, neither shall they drink water.</p>
+        <p>8 And they shall cover themselves with sackcloth, both man and beast, and they shall call mightily to God, and everyone shall repent of his evil way and of the dishonest gain which is in their hands.</p>
+        <p>9 Whoever knows shall repent, and God will relent, and He will return from His burning wrath, and we will not perish.</p>
+        <p>10 And God saw their deeds, that they had repented of their evil way, and the Lord relented concerning the evil that He had spoken to do to them, and He did not do it.</p>
+      </div>
+
+      <div class="column hebrew">
+        <p>וַיְהִ֧י דְבַר־יְהֹוָ֛ה אֶל־יוֹנָ֖ה שֵׁנִ֥ית לֵאמֹֽר:</p>
+        <p>ק֛וּם לֵ֥ךְ אֶל־נִֽינְוֵ֖ה הָעִ֣יר הַגְּדוֹלָ֑ה וּקְרָ֚א אֵלֶ֙יהָ֙ אֶת־הַקְּרִיאָ֔ה אֲשֶׁ֥ר אָֽנֹכִ֖י דֹּבֵ֥ר אֵלֶֽיךָ:</p>
+        <p>וַיָּ֣קָם יוֹנָ֗ה וַיֵּ֛לֶךְ אֶל־נִֽינְוֵ֖ה כִּדְבַ֣ר יְהֹוָ֑ה וְנִֽינְוֵ֗ה הָֽיְתָ֚ה עִיר־גְּדוֹלָה֙ לֵֽאלֹהִ֔ים מַֽהֲלַ֖ךְ שְׁלֹ֥שֶׁת יָמִֽים:</p>
+        <p>וַיָּ֚חֶל יוֹנָה֙ לָב֣וֹא בָעִ֔יר מַֽהֲלַ֖ךְ י֣וֹם אֶחָ֑ד וַיִּקְרָא֙ וַיֹּאמַ֔ר עוֹד אַרְבָּעִ֣ים י֔וֹם וְנִֽינְוֵ֖ה נֶהְפָּֽכֶת:</p>
+        <p>וַיַּֽאֲמִ֛ינוּ אַנְשֵׁ֥י נִֽינְוֵ֖ה בֵּֽאלֹהִ֑ים וַיִּקְרְאוּ־צוֹם֙ וַיִּלְבְּשׁ֣וּ שַׂקִּ֔ים מִגְּדוֹלָ֖ם וְעַד־קְטַנָּֽם:</p>
+        <p>וַיִּגַּ֚ע הַדָּבָר֙ אֶל־מֶ֣לֶךְ נִֽינְוֵ֔ה וַיָּ֙קָם֙ מִכִּסְא֔וֹ וַיַּֽעֲבֵ֥ר אַדַּרְתּ֖וֹ מֵֽעָלָ֑יו וַיְכַ֣ס שַׂ֔ק וַיֵּ֖שֶׁב עַל־הָאֵֽפֶר:</p>
+        <p>וַיַּזְעֵ֗ק וַיֹּ֙אמֶר֙ בְּנִֽינְוֵ֔ה מִטַּ֧עַם הַמֶּ֛לֶךְ וּגְדֹלָ֖יו לֵאמֹ֑ר הָֽאָדָ֨ם וְהַבְּהֵמָ֜ה הַבָּקָ֣ר וְהַצֹּ֗אן אַל־יִטְעֲמוּ֙ מְא֔וּמָה אַ֨ל־יִרְע֔וּ וּמַ֖יִם אַל־יִשְׁתּֽוּ:</p>
+        <p>וְיִתְכַּסּ֣וּ שַׂקִּ֗ים הָֽאָדָם֙ וְהַבְּהֵמָ֔ה וְיִקְרְא֥וּ אֶל־אֱלֹהִ֖ים בְּחָזְקָ֑ה וְיָשֻׁ֗בוּ אִישׁ מִדַּרְכּ֣וֹ הָֽרָעָ֔ה וּמִן־הֶֽחָמָ֖ס אֲשֶׁ֥ר בְּכַפֵּיהֶֽם:</p>
+        <p>מִֽי־יוֹדֵ֣עַ יָשׁ֔וּב וְנִחַ֖ם הָֽאֱלֹהִ֑ים וְשָׁ֛ב מֵֽחֲר֥וֹן אַפּ֖וֹ וְלֹ֥א נֹאבֵֽד:</p>
+        <p>וַיַּ֚רְא הָֽאֱלֹהִים֙ אֶת־מַ֣עֲשֵׂיהֶ֔ם כִּֽי־שָׁ֖בוּ מִדַּרְכָּ֣ם הָֽרָעָ֑ה וַיִּנָּ֣חֶם הָֽאֱלֹהִ֗ים עַל־הָֽרָעָ֛ה אֲשֶׁר־דִּבֶּ֥ר לַֽעֲשֽׂוֹת־לָהֶ֖ם וְלֹ֥א עָשָֽׂה:</p>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chapter 4 – Jonah Project</title>
+  <link rel="stylesheet" href="stile.css">
+  <link href="https://fonts.googleapis.com/css2?family=David+Libre&display=swap" rel="stylesheet">
+  <style>
+    .chapter {
+      display: flex;
+      gap: 2em;
+      margin: 2em auto;
+      max-width: 1200px;
+    }
+
+    .column {
+      flex: 1;
+    }
+
+    .hebrew {
+      font-family: 'David Libre', serif;
+      direction: rtl;
+      text-align: right;
+      font-size: 1.2em;
+      line-height: 1.8;
+    }
+
+    .english {
+      font-size: 1.1em;
+      line-height: 1.8;
+    }
+
+    h1 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="istockphoto-1303317477-612x612.jpg" alt="Jonah and the whale illustration">
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="introduzione.html">Introduction</a>
+    <a href="libro1.html">Chapter 1</a>
+    <a href="libro2.html">Chapter 2</a>
+    <a href="libro3.html">Chapter 3</a>
+    <a href="libro4.html">Chapter 4</a>
+    <a href="note.html">Notes</a>
+  </nav>
+
+  <main>
+    <h1>Jonah – Chapter 4</h1>
+
+    <div class="chapter">
+      <div class="column english">
+        <p>1 Now it <a href="note.html#nota55">displeased</a> Jonah exceedingly, and he was grieved.</p>
+        <p>2 And he prayed to the Lord and said, "Please, O Lord, was this not my contention while I was still on my land? For this reason I had hastened to flee to Tarshish, for I <a href="note.html#nota56">know</a> that You are a gracious and merciful God, slow to anger, with much kindness, and relenting of evil.</p>
+        <p>3 And now, O Lord, take now my soul from me, for my death is better than my life."</p>
+        <p>4 And the Lord said: Are you deeply <a href="note.html#nota57">grieved</a>?</p>
+        <p>5 And Jonah had gone out of the city, and had stationed himself on the east of the city, and there he made himself a <a href="note.html#nota59">hut</a> and sat under it in the shade until he would <a href="note.html#nota58">see</a> what would happen in the city.</p>
+        <p>6 Now the Lord God appointed a <a href="note.html#nota60">kikayon</a>, and it grew up over Jonah to be shade over his head, to save him from his discomfort, and Jonah was overjoyed with the kikayon.</p>
+        <p>7 Now God appointed a worm at the rise of dawn on the morrow, and the worm attacked the kikayon, and it withered.</p>
+        <p>8 Now it came to pass when the sun shone, that God appointed a stilling east <a href="note.html#nota61">wind</a>, and the sun beat on Jonah's head, and he fainted, and he begged to die, and he said, "My death is better than my life."</p>
+        <p>9 And God said to Jonah; Are you very grieved about the kikayon? And he said, "I am very grieved even to death."</p>
+        <p>10 And the Lord said: You took <a href="note.html#nota62">pity</a> on the kikayon, for which you did not toil nor did you make it grow, which one night came into being and the next night perished.</p>
+        <p>11 Now should <a href="note.html#nota63">I</a> not take pity on Nineveh, the great city, in which there are many more than one hundred twenty thousand people who do not know their right hand from their left, and many beasts as well?</p>
+      </div>
+
+      <div class="column hebrew">
+        <p>וַיֵּ֥רַע אֶל־יוֹנָ֖ה רָעָ֣ה גְדוֹלָ֑ה וַיִּ֖חַר לֽוֹ:</p>
+        <p>וַיִּתְפַּ֨לֵּל אֶל־יְהֹוָ֜ה וַיֹּאמַ֗ר אָֽנָּ֚ה יְהֹוָה֙ הֲלוֹא־זֶ֣ה דְבָרִ֗י עַד־הֱיוֹתִי֙ עַל־אַדְמָתִ֔י עַל־כֵּ֥ן קִדַּ֖מְתִּי לִבְרֹ֣חַ תַּרְשִׁ֑ישָׁה כִּ֣י יָדַ֗עְתִּי כִּ֚י אַתָּה֙ אֵֽל־חַנּ֣וּן וְרַח֔וּם אֶ֚רֶךְ אַפַּ֙יִם֙ וְרַב־חֶ֔סֶד וְנִחָ֖ם עַל־הָֽרָעָֽה:</p>
+        <p>וְעַתָּ֣ה יְהֹוָ֔ה קַח־נָ֥א אֶת־נַפְשִׁ֖י מִמֶּ֑נִּי כִּ֛י ט֥וֹב מוֹתִ֖י מֵֽחַיָּֽי:</p>
+        <p>וַיֹּ֣אמֶר יְהֹוָ֔ה הַֽהֵיטֵ֖ב חָ֥רָה לָֽךְ:</p>
+        <p>וַיֵּצֵ֚א יוֹנָה֙ מִן־הָעִ֔יר וַיֵּ֖שֶׁב מִקֶּ֣דֶם לָעִ֑יר וַיַּעַשׂ֩ ל֨וֹ שָׁ֜ם סֻכָּ֗ה וַיֵּ֚שֶׁב תַּחְתֶּ֙יהָ֙ בַּצֵּ֔ל עַד אֲשֶׁ֣ר יִרְאֶ֔ה מַה־יִּֽהְיֶ֖ה בָּעִֽיר:</p>
+        <p>וַיְמַ֣ן יְהֹוָֽה־אֱ֠לֹהִים קִֽיקָי֞וֹן וַיַּ֣עַל | מֵעַ֣ל לְיוֹנָ֗ה לִֽהְי֥וֹת צֵל֙ עַל־רֹאשׁ֔וֹ לְהַצִּ֥יל ל֖וֹ מֵרָֽעָת֑וֹ וַיִּשְׂמַ֥ח יוֹנָ֛ה עַל־הַקִּֽיקָי֖וֹן שִׂמְחָ֥ה גְדוֹלָֽה:</p>
+        <p>וַיְמַ֚ן הָֽאֱלֹהִים֙ תּוֹלַ֔עַת בַּֽעֲל֥וֹת הַשַּׁ֖חַר לַֽמָּֽחֳרָ֑ת וַתַּ֥ךְ אֶת־הַקִּֽיקָי֖וֹן וַיִּיבָֽשׁ:</p>
+        <p>וַיְהִ֣י | כִּזְרֹ֣חַ הַשֶּׁ֗מֶשׁ וַיְמַ֨ן אֱלֹהִ֜ים ר֚וּחַ קָדִים֙ חֲרִישִׁ֔ית וַתַּ֥ךְ הַשֶּׁ֛מֶשׁ עַל־רֹ֥אשׁ יוֹנָ֖ה וַיִּתְעַלָּ֑ף וַיִּשְׁאַ֚ל אֶת־נַפְשׁוֹ֙ לָמ֔וּת וַיֹּ֕אמֶר ט֥וֹב מוֹתִ֖י מֵֽחַיָּֽי:</p>
+        <p>וַיֹּ֚אמֶר אֱלֹהִים֙ אֶל־יוֹנָ֔ה הַֽהֵיטֵ֥ב חָֽרָה־לְךָ֖ עַל־הַקִּֽיקָי֑וֹן וַיֹּ֕אמֶר הֵיטֵ֥ב חָֽרָה־לִ֖י עַד־מָֽוֶת:</p>
+        <p>וַיֹּ֣אמֶר יְהֹוָ֗ה אַתָּ֥ה חַ֙סְתָּ֙ עַל־הַקִּ֣יקָי֔וֹן אֲשֶׁ֛ר לֹֽא־עָמַ֥לְתָּ בּ֖וֹ וְלֹ֣א גִדַּלְתּ֑וֹ שֶׁבִּן־לַ֥יְלָה הָיָ֖ה וּבִן־לַ֥יְלָה אָבָֽד:</p>
+        <p>וַֽאֲנִי֙ לֹ֣א אָח֔וּס עַל־נִֽינְוֵ֖ה הָעִ֣יר הַגְּדוֹלָ֑ה אֲשֶׁ֣ר יֶשׁ־בָּ֡הּ הַרְבֵּה֩ מִֽשְׁתֵּֽים־עֶשְׂרֵ֨ה רִבּ֜וֹ אָדָ֗ם אֲשֶׁ֚ר לֹֽא־יָדַע֙ בֵּֽין־יְמִינ֣וֹ לִשְׂמֹאל֔וֹ וּבְהֵמָ֖ה רַבָּה:</p>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>

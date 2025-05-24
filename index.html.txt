@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Homepage - Jonah Project</title>
+  <link rel="stylesheet" href="stile.css">
+</head>
+<body>
+
+  <header>
+    <img src="istockphoto-1303317477-612x612.jpg" alt="Jonah and the whale illustration">
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="introduzione.html">Introduction</a>
+    <a href="libro1.html">Chapter 1</a>
+    <a href="libro2.html">Chapter 2</a>
+    <a href="libro3.html">Chapter 3</a>
+    <a href="libro4.html">Chapter 4</a>
+    <a href="note.html">Notes</a>
+  </nav>
+
+  <main>
+    <h1>Welcome to the Jonah Project</h1>
+
+    <p>This website is part of an educational project aimed at making an exegetical resource on the Book of Jonah more accessible to students, educators, and curious readers. The main reference used throughout this project is <em>Reading Jonah: A Guide to the Hebrew Text</em> by Charles L. Echols.</p>
+
+    <p>The structure of the site is simple and user-friendly: it includes an introduction to the Book of Jonah, four chapters corresponding to the biblical text, and a notes section for additional context and commentary.</p>
+
+    <p>Key terms and significant phrases throughout the text are marked as hyperlinks. These links connect directly to the relevant notes, enabling quick and effective navigation for enhanced understanding and ease of reference.</p>
+  </main>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chapter 2 – Jonah Project</title>
+  <link rel="stylesheet" href="stile.css">
+  <link href="https://fonts.googleapis.com/css2?family=David+Libre&display=swap" rel="stylesheet">
+  <style>
+    .chapter {
+      display: flex;
+      gap: 2em;
+      margin: 2em auto;
+      max-width: 1200px;
+    }
+
+    .column {
+      flex: 1;
+    }
+
+    .hebrew {
+      font-family: 'David Libre', serif;
+      direction: rtl;
+      text-align: right;
+      font-size: 1.2em;
+      line-height: 1.8;
+    }
+
+    .english {
+      font-size: 1.1em;
+      line-height: 1.8;
+    }
+
+    h1 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="istockphoto-1303317477-612x612.jpg" alt="Jonah and the whale illustration">
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="introduzione.html">Introduction</a>
+    <a href="libro1.html">Chapter 1</a>
+    <a href="libro2.html">Chapter 2</a>
+    <a href="libro3.html">Chapter 3</a>
+    <a href="libro4.html">Chapter 4</a>
+    <a href="note.html">Notes</a>
+  </nav>
+
+  <main>
+    <h1>Jonah – Chapter 2</h1>
+
+    <div class="chapter">
+      <div class="column english">
+        <p>1 And the Lord <a href="note.html#nota34">appointed</a> a huge <a href="note.html#nota35">fish</a> to swallow up Jonah, and Jonah was in the belly of the fish for three days and three nights.</p>
+        <p>2 And Jonah <a href="note.html#nota36">prayed</a> to the Lord his God, from the belly of the fish.</p>
+        <p>3 And he said: I <a href="note.html#nota37">called</a> out from my distress to the Lord, and He answered me; from the belly of <a href="note.html#nota38">Sheol</a> I cried out, You heard my voice.</p>
+        <p>4 And You ca<a href="note.html#nota39">cast</a>st me into the deep in the heart of the seas, and a river surrounded me; all Your breakers and Your waves passed over me.</p>
+        <p>5 And <a href="note.html#nota40">I</a> said, "I have been driven <a href="note.html#nota41">away</a> from before Your eyes," Indeed, I will continue to gaze upon Your Holy Temple.</p>
+        <p>6 Water has <a href="note.html#nota43">surrounded</a> me even to the soul, the deep encompassed me; the Red Sea hangs over my head.</p>
+        <p>7 To the bottom of the <a href="note.html#nota44">mountains</a> I descended, the earth-its <a href="note.html#nota45">bars</a> are closed on me forever; but You brought up my life from Gehinnom, O Lord, my God.</p>
+        <p>8 When my soul grew faint upon me, I remembered the Lord: and my prayer came to You to Your Holy <a href="note.html#nota42">Temple</a><a href="note.html#nota26">Lord</a>.</p>
+        <p>9 Those who keep worthless futilities abandon their kindness.</p>
+        <p>10 But <a href="note.html#nota46">I</a>-with a voice of thanks will I sacrifice to You; what I vowed I will pay, for the salvation of the Lord.</p>
+        <p>11 And the Lord said to the fish, and it spewed Jonah onto the dry land.</p>
+      </div>
+
+      <div class="column hebrew">
+        <p>וַיְמַ֚ן יְהֹוָה֙ דָּ֣ג גָּד֔וֹל לִבְלֹ֖עַ אֶת־יוֹנָ֑ה וַיְהִ֚י יוֹנָה֙ בִּמְעֵ֣י הַדָּ֔ג שְׁלֹשָׁ֥ה יָמִ֖ים וּשְׁלֹשָׁ֥ה לֵילֽוֹת:</p>
+        <p>וַיִּתְפַּלֵּ֣ל יוֹנָ֔ה אֶל־יְהֹוָ֖ה אֱלֹהָ֑יו מִמְּעֵ֖י הַדָּגָֽה:</p>
+        <p>וַיֹּ֗אמֶר קָ֠רָא֠תִי מִצָּ֥רָה לִ֛י אֶל־יְהֹוָ֖ה וַיַּֽעֲנֵ֑נִי מִבֶּ֧טֶן שְׁא֛וֹל שִׁוַּ֖עְתִּי שָׁמַ֥עְתָּ קוֹלִֽי:</p>
+        <p>וַתַּשְׁלִיכֵ֚נִי מְצוּלָה֙ בִּלְבַ֣ב יַמִּ֔ים וְנָהָ֖ר יְסֹֽבְבֵ֑נִי כָּל־מִשְׁבָּרֶ֥יךָ וְגַלֶּ֖יךָ עָלַ֥י עָבָֽרוּ:</p>
+        <p>וַֽאֲנִ֣י אָמַ֔רְתִּי נִגְרַ֖שְׁתִּי מִנֶּ֣גֶד עֵינֶ֑יךָ אַךְ אוֹסִ֣יף לְהַבִּ֔יט אֶל־הֵיכַ֖ל קָדְשֶֽׁךָ:</p>
+        <p>אֲפָפ֚וּנִי מַ֙יִם֙ עַד־נֶ֔פֶשׁ תְּה֖וֹם יְסֹֽבְבֵ֑נִי ס֖וּף חָב֥וּשׁ לְרֹאשִֽׁי:</p>
+        <p>לְקִצְבֵ֚י הָרִים֙ יָרַ֔דְתִּי הָאָ֛רֶץ בְּרִחֶ֥יהָ בַֽעֲדִ֖י לְעוֹלָ֑ם וַתַּ֧עַל מִשַּׁ֛חַת חַיַּ֖י יְהֹוָ֥ה אֱלֹהָֽי:</p>
+        <p>בְּהִתְעַטֵּ֚ף עָלַי֙ נַפְשִׁ֔י אֶת־יְהֹוָ֖ה זָכָ֑רְתִּי וַתָּב֚וֹא אֵלֶ֙יךָ֙ תְּפִלָּתִ֔י אֶל־הֵיכַ֖ל קָדְשֶֽׁךָ:</p>
+        <p>מְשַׁמְּרִ֖ים הַבְלֵי־שָׁ֑וְא חַסְדָּ֖ם יַֽעֲזֹֽבוּ:</p>
+        <p> וַֽאֲנִ֗י בְּק֚וֹל תּוֹדָה֙ אֶזְבְּחָה־לָּ֔ךְ אֲשֶׁ֥ר נָדַ֖רְתִּי אֲשַׁלֵּ֑מָה יְשׁוּעָ֖תָה לַֽיהֹוָֽה:</p>
+        <p>וַיֹּ֥אמֶר יְהֹוָ֖ה לַדָּ֑ג וַיָּקֵ֥א אֶת־יוֹנָ֖ה אֶל־הַיַּבָּשָֽׁה:</p>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
