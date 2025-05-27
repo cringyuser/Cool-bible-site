@@ -121,19 +121,13 @@
   </div>
 <script>
 window.onload = function() {
-  // Get the hash from the URL (e.g., "#note1")
   const hash = window.location.hash;
   if (hash) {
     const note = document.querySelector(hash);
     if (note) {
-      // Highlight the note
-      note.style.backgroundColor = '#ffff99'; // yellow highlight
+      note.style.backgroundColor = '#ffff99'; 
       note.style.transition = 'background-color 0.5s ease';
-
-      // Scroll into view and center
       note.scrollIntoView({ behavior: 'smooth', block: 'center' });
-
-      // Remove highlight after a few seconds
       setTimeout(() => {
         note.style.backgroundColor = '';
       }, 3000);
