@@ -54,12 +54,6 @@ footer {
   text-align: center;
 }
 
-footer .footer-container {
-  max-width: 900px;
-  margin: auto;
-  padding: 0 20px;
-}
-
 footer a {
   color: #FFFFFF;
   text-decoration: none;
