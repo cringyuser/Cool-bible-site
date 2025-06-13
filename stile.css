@@ -44,3 +44,31 @@ main {
 h1 {
   color: #d86222;
 }
+
+footer {
+  background-color: #700e01;
+  border-top: 1px solid #ccc;
+  padding: 20px 0;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+footer .footer-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+footer a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
